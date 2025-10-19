@@ -1,40 +1,196 @@
 <html>
 <head>
-    <title>PROFILE</title>
+    <title> PROFILE | Aquila </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            /* Light violet/lavender background */
+            background-color: #e6e6fa; 
+            margin: 0;
+            padding: 30px 0;
+        }
+        
+        .content-box {
+            background-color: white; 
+            width: 80%;
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #dcdcdc;
+            text-align: left; /* Default text alignment for sections */
+        }
+
+        h1 {
+            color: #4b0082; /* Deep Violet */
+            border-bottom: 3px solid #ffcc00; /* Gold Accent */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.8); 
+            text-align: center;
+        }
+
+        h2, h3 {
+            color: #6a5acd; /* Medium Slate Blue/Violet */
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.9);
+            text-align: center;
+        }
+        
+        /* Style the profile image */
+        .profile-img {
+            border: 5px solid #4b0082;
+            border-radius: 50%; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+            margin-bottom: 25px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Link styling */
+        .nav-link, .fb-link {
+            text-decoration: none;
+            font-weight: bold;
+            color: #8a2be2; 
+            transition: color 0.3s;
+        }
+        .nav-link:hover, .fb-link:hover {
+            color: #ffcc00; 
+        }
+
+        /* Section for the personal story and projects */
+        .story-section, .project-section, .connect-section {
+            padding: 20px;
+            border: 1px dashed #dcdcdc;
+            margin-top: 25px;
+            border-radius: 8px;
+            background-color: #f7f3ff;
+            margin-bottom: 20px;
+        }
+
+        /* Image Gallery Styling */
+        .gallery-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .gallery-table td {
+            padding: 5px;
+            text-align: center;
+        }
+        .gallery-table img {
+            width: 100%;
+            height: auto;
+            max-height: 200px; /* Constrain image height */
+            object-fit: cover;
+            border-radius: 8px;
+            border: 3px solid #dcdcdc;
+            transition: transform 0.3s;
+        }
+        .gallery-table img:hover {
+            transform: scale(1.05);
+            border-color: #6a5acd;
+        }
+    </style>
 </head>
-<body bgcolor="#006666">
-    <font color="white" size="4">
+<body>
     <center>
+    <div class="content-box">
     
-        <h1>PROFILE</h1>
-        <hr>
+        <h1 style="margin-top: 0;">
+            [YOUR NAME] | MULTIMEDIA ARTIST
+        </h1>
         
-        <p>
-            I am a passionate **Multimedia Artist** specializing in blending creative design with technical implementation. My expertise lies in visual storytelling, graphic design, and video editing, primarily using tools like Adobe Premiere Pro and CapCut. I am dedicated to creating visually stunning and effective content for various digital platforms.
-        </p>
+        <!-- Profile Picture Placeholder -->
+        <img src="MYXJ_20250906234943643_fast.jpg" alt="[Your Name] Profile Picture" width="180" height="180" class="profile-img">
         
-        <p>
-            My core philosophy is that effective communication relies on strong visual narratives. I am proficient in the technical aspects of web structuring (HTML/CSS) and can translate complex ideas into clean, engaging user experiences.
-        </p>
-
-        <h2>Key Skills</h2>
-        <ul style="text-align: left; list-style-type: none; margin-left: auto; margin-right: auto; width: 60%;">
-            <li><font color="#ffcc00">&#9679; </font> Video Editing & Production (CapCut, Premiere Pro)</li>
-            <li><font color="#ffcc00">&#9679; </font> Graphic Design (Branding & Digital Assets)</li>
-            <li><font color="#ffcc00">&#9679; </font> Web Technologies (HTML5 & CSS3)</li>
-            <li><font color="#ffcc00">&#9679; </font> Digital Photography & Image Post-Processing</li>
-        </ul>
-
-        <br><br>
-
-        <a href="about.html" target="kannan"><font size="5" color="white">About</font></a><br><br>
-        <a href="education.html" target="kannan"><font size="5" color="white">Education</font></a><br><br>
-        <a href="accomplishment.html" target="kannan"><font size="5" color="white">Accomplishment</font></a><br><br>
-        <a href="sec.html" target="kannan"><font size="5" color="white"> About </font></a>
+        <!-- ====================================================== -->
+        <!-- PERSONAL CONTEXT (Mother, Wife, Student) -->
+        <!-- ====================================================== -->
+        <h3 style="text-align: center;">My Roles: Mother, Wife, and Creative Student</h3>
         
+        <div class="story-section">
+            <p>
+                <font size="4" color="#4b0082" style="font-weight: bold;">
+                Balancing the roles of student, professional, wife, and mother is the most challenging and rewarding multimedia project I've ever undertaken.
+                </font>
+            </p>
+            <p>
+                <font size="4" color="#333333">
+                Motherhood has profoundly influenced my creativity, teaching me invaluable lessons in **time management, patience, and rapid problem-solving**—all critical skills in the fast-paced world of multimedia. My home life isn't a distraction; it's the **foundation of my resilience and creative discipline.**
+                </font>
+            </p>
+        </div>
+
+        <hr width="70%" style="border-color: #e0b0ff;">
+        
+        <!-- ====================================================== -->
+        <!-- PICTURE GALLERY -->
+        <!-- ====================================================== -->
+        <h3 style="text-align: center;">Visual Snapshot</h3>
+        
+        <table class="gallery-table">
+            <tr>
+                <!-- Image 1 -->
+                <td><img src="Messenger_creation_1318422672124163.jpg" alt="Project Photo 1"></td>
+                <!-- Image 2 -->
+                <td><img src="received_721472744242509.jpeg" alt="Project Photo 2"></td>
+            </tr>
+            <tr>
+                <!-- Image 3 -->
+                <td><img src="Messenger_creation_F753E64E-8A5D-4B6B-B685-E6B0AD55ED3D.jpeg" alt="Project Photo 3"></td>
+                <!-- Image 4 -->
+                <td><img src="received_1525831348412019.jpeg" alt="Project Photo 4"></td>
+            </tr>
+        </table>
+
+        <hr width="70%" style="border-color: #e0b0ff;">
+
+        <!-- ====================================================== -->
+        <!-- FACEBOOK LINKS -->
+        <!-- ====================================================== -->
+        <h3 style="text-align: center;">Connect with Me</h3>
+        
+        <div class="connect-section" style="text-align: center;">
+            <p style="font-size: 1.1em; font-weight: bold; color: #4b0082;">Find more of my work and content on my Facebook pages:</p>
+            
+            <p>
+                <!-- FB Link 1: REPLACE # with your actual URL -->
+                <a href="https://www.facebook.com/YOUR_PAGE_URL_1" target="_blank" class="fb-link">
+                    <img src="https://placehold.co/20x20/4b0082/ffffff?text=FB" alt="Facebook Icon" style="vertical-align: middle; margin-right: 5px;">
+                    [Creative Studio Name / Portfolio Page]
+                </a>
+            </p>
+            <p>
+                <!-- FB Link 2: REPLACE # with your actual URL -->
+                <a href="https://www.facebook.com/YOUR_PAGE_URL_2" target="_blank" class="fb-link">
+                    <img src="https://placehold.co/20x20/4b0082/ffffff?text=FB" alt="Facebook Icon" style="vertical-align: middle; margin-right: 5px;">
+                    [Personal Blog or Project Page]
+                </a>
+            </p>
+            <p>
+                <!-- FB Link 3: REPLACE # with your actual URL -->
+                <a href="https://www.facebook.com/YOUR_PAGE_URL_3" target="_blank" class="fb-link">
+                    <img src="https://placehold.co/20x20/4b0082/ffffff?text=FB" alt="Facebook Icon" style="vertical-align: middle; margin-right: 5px;">
+                    [Educational Content or University Group]
+                </a>
+            </p>
+        </div>
+
+
+        <hr width="70%" style="border-color: #e0b0ff;">
+
+        <!-- Navigation Links -->
+        <a href="profile.html" target="kannan" class="nav-link"> [ PROFILE ] </a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="education.html" target="kannan" class="nav-link"> [ EDUCATION ] </a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="accomplishment.html" target="kannan" class="nav-link"> [ ACCOMPLISHMENTS ] </a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="sec.html" target="kannan" class="nav-link"> [ BACK TO MAIN ] </a>
+        
+    </div>
     </center>
-    </font>
-</body>
-</html>
 </body>
 </html>
