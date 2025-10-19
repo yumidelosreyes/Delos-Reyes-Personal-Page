@@ -1,53 +1,113 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Home</title>
+    <title>ABOUT ME - Aquila</title>
     <style>
+        /* General Styles for the 80% Frame Content */
         body {
             font-family: Arial, sans-serif;
-            color: #333;
+            text-align: center;
+            /* Light violet/lavender background */
+            background-color: #e6e6fa; 
             margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            padding: 30px 0;
         }
-        .header {
-            background-size: cover;
-            height: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-        }
-        .header h1 {
-            font-size: 3em;
-            border-bottom: 4px solid #ff9800; /* Accent color highlight */
-            padding-bottom: 10px;
-        }
-        .content {
-            padding: 40px;
+        
+        /* Main Content Container */
+        .content-box {
+            background-color: white; 
+            width: 80%;
             max-width: 800px;
-            margin: 0 auto;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #dcdcdc;
+        }
+
+        /* Text Shadow applied to Headings */
+        h1 {
+            color: #4b0082; /* Deep Violet */
+            border-bottom: 3px solid #ffcc00; /* Gold Accent */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.8); 
+        }
+
+        h2, h3 {
+            color: #6a5acd; /* Medium Slate Blue/Violet */
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.9);
+        }
+        
+        /* Style the profile image */
+        .profile-img {
+            border: 5px solid #4b0082;
+            border-radius: 50%; /* Make it circular */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+            margin-bottom: 25px;
+        }
+
+        /* Link styling */
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #8a2be2; 
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #ffcc00; 
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>CREATIVE VISIONS: [Your Name]</h1>
-    </div>
-
-    <div class="content">
-        <h2>Hello, I'm a Multimedia Artist.</h2>
-        <p>
-            Welcome to my professional page. As a dedicated multimedia artist, I specialize in combining **digital design, video editing, and visual storytelling** to create impactful and engaging content. My goal is to transform ideas into stunning visual realities that resonate with the target audience.
-        </p>
-        <p>
-            I am proficient in [Mention a software: e.g., Adobe Premiere Pro, CapCut (as seen in your files), HTML/CSS] and always focused on delivering projects that are not only aesthetically pleasing but also technically flawless.
-        </p>
+    <center>
+    <div class="content-box">
+    
+        <h1 style="margin-top: 0;">
+            ABOUT ME
+        </h1>
         
-        <h2 style="color: #ff9800;">Let's Create Something Remarkable.</h2>
+        
+
+        <img src="MYXJ_20250906234943643_fast.jpg" alt="[Your Name] Profile Picture" width="180" height="180" class="profile-img">
+        
+        <h2>Hello! I'm Aquila</h2>
+        
         <p>
-            Please use the menu on the left to navigate my profile, educational background, accomplishments.
+            <font size="4" color="#333333">
+            I am a dedicated Multimedia Artist based in Manila. My work focuses on creating seamless visual narratives across both digital and traditional media. I thrive on bringing ideas to life, whether through dynamic video editing, detailed graphic design, or structured web presentation using HTML and CSS.
+            </font>
         </p>
+
+        <hr width="70%" style="border-color: #e0b0ff;">
+
+        <h3>Contact Information</h3>
+        
+        <table border="0" cellpadding="10" cellspacing="0" width="60%" style="text-align: left; margin: 0 auto 30px auto;">
+            <tr>
+                <td width="30%" style="font-weight: bold; color: #6a5acd;">Email:</td>
+                <td>jaycelrobiso2002@gmail.com</a></td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; color: #6a5acd;">Phone:</td>
+                <td> 09196582793 </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; color: #6a5acd;">Location:</td>
+                <td>Tonsuya, Malabon, Metro Manila, Philippines</td>
+            </tr>
+        </table>
+        
+        <hr width="70%" style="border-color: #e0b0ff;">
+
+        <!-- Navigation Links (Ensure they target the correct frame name 'content_area') -->
+        <a href="profile.html" target="kannan"> [ PROFILE ] </a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="education.html" target="kannan"> [ EDUCATION ] </a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="accomplishment.html" target="kannan"> [ ACCOMPLISHMENTS ] </a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        
     </div>
+    </center>
 </body>
 </html>
